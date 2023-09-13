@@ -1,6 +1,5 @@
 import './Navbar.css'; 
 import Brand from "./Brand";
-import ItemListContainer from './itemListContainer';
 import CartWiget from "./CartWiget";
 
 
@@ -14,10 +13,6 @@ function Navbar() {
       </div>
 
       <nav className='containerItemList'>
-        <ItemListContainer 
-        itemUno = "Playstation"
-        itemDos = "Xbox"
-        itemTres = "Nintendo" />
     
       </nav>
 
