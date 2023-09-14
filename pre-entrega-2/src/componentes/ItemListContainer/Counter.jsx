@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './card.css';
 
 const Counter = () => {
     const [number, setNumber] = useState (0);
@@ -12,11 +13,10 @@ const Counter = () => {
   }
 
   return (
-    <div>
-      <button onClick={sumar}>+</button>
-      <span>{number}</span>
-      <button onClick={restar}>-</button>
-
+    <div className="counter__div">
+      <button className="counter__suma" onClick={sumar}>+</button>
+      <span className="counter__numer">{number}</span>
+      <button className="counter__resta" onClick={restar}>-</button>
     </div>
   )
 }
