@@ -1,6 +1,6 @@
-const productos = [
+const Productos = () => [
     {
-      id: "playstation-01",
+      id: "1",
       type: "Playstation5",
       titulo: "God Of War Ragnarok",
       stock: 15,
@@ -10,7 +10,7 @@ const productos = [
     },
 
     {
-      id: "playstation-02",
+      id: "2",
       type: "Playstations5",
       titulo: "Resident Evil Remake 4",
       stock: 15,
@@ -20,7 +20,7 @@ const productos = [
     },
 
     {
-      id: "playstation-04",
+      id: "3",
       type: "Playstatiosn5",
       titulo: "Fifa 23",
       stock: 15,
@@ -30,7 +30,7 @@ const productos = [
     },
 
     {
-      id: "playstation-03",
+      id: "4",
       type: "Playstations5",
       titulo: "Horizon Forbiden West",
       stock: 15,
@@ -40,7 +40,7 @@ const productos = [
     },
 
     {
-      id: "Xbox-01",
+      id: "5",
       type: "Playstation4",
       titulo: "COD Modern Warfare II",
       stock: 15,
@@ -50,7 +50,7 @@ const productos = [
     },
 
     {
-      id: "Xbox-02",
+      id: "6",
       type: "Playstation4",
       stock: 15,
       titulo: "Guardians of the Galaxy",
@@ -60,7 +60,7 @@ const productos = [
     },
 
     {
-      id: "Xbox-04",
+      id: "7",
       type: "Playstation4",
       titulo: "NBA 2K2023",
       stock: 15,
@@ -70,7 +70,7 @@ const productos = [
     },
 
     {
-      id: "Xbox-03",
+      id: "8",
       type: "Playstation4",
       titulo: "Red Read Redemtion II",
       stock: 15,
@@ -80,7 +80,7 @@ const productos = [
     },
 
     {
-      id: "Nintendo-01",
+      id: "9",
       type: "Nintendo",
       titulo: "Zelda Breath Of The Wild",
       stock: 15,
@@ -90,7 +90,7 @@ const productos = [
     },
 
     {
-      id: "Nintendo-02",
+      id: "10",
       type: "Nintendo",
       titulo: "Pokemon Espada",
       stock: 15,
@@ -100,7 +100,7 @@ const productos = [
     },
 
     {
-      id: "Nintendo-04",
+      id: "11",
       type: "Nintendo",
       titulo: "Mario Bross",
       stock: 15,
@@ -110,7 +110,7 @@ const productos = [
     },
 
     {
-      id: "Nintendo-03",
+      id: "12",
       type: "Nintendo",
       titulo: "Monster Hunter",
       stock: 15,
@@ -120,4 +120,4 @@ const productos = [
     },
   ]
 
-  export default productos;
+  export default Productos;

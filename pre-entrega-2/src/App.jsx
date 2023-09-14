@@ -1,17 +1,17 @@
 import HeaderImg from "./componentes/home/HeatherImg";
-import Card from "./componentes/main/Card";
 import Navbar from "./componentes/nav/Navbar";
 import './componentes/nav/Navbar.css';
-import ItemListContainer from '../src/componentes/ItemListContainer/ItemListContainer';
+import ItemListContainer from './componentes/ItemListContainer/ItemListContainer';
+import CardListContainer from './componentes/ItemListContainer/CardListContainer';
 
 function App() {
 
   return (
     <>
       <Navbar />
-      <ItemListContainer greeting={"Los mejores juegos al mejor precio"} />
+      <ItemListContainer greeting={"DementesGamers"} />
       <HeaderImg />
-      <Card title="Título de ejemplo" info="Aquí va alguna información" />
+      <CardListContainer  />
     </>
   )
 }

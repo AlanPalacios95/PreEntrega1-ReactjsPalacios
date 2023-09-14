@@ -27,6 +27,10 @@ header {
   height: 100%;
 }
 
+.containerItemList {
+  display: flex;
+}
+
 .itemlistcontainer__ul {
   list-style: none;
   display: flex;
@@ -50,7 +54,7 @@ header {
 
 a {
   text-decoration: none;
-  color: inherit; 
+  color: inherit;
   cursor: pointer;
 }
 
@@ -67,9 +71,14 @@ a {
   color: white;
 }
 
+.cartwiget__div {
+  display: flex;
+  align-items: center;
+}
+
 .cartwiget__img:hover {
-  font-size: 3rem;
-  color: rgb(10, 204, 178);;
+  font-size: 1.9rem;
+  color: rgb(10, 204, 178);
 }
 
 .cartwiget__cantcart {
@@ -80,5 +89,18 @@ a {
 
 .cartwiget__cantcart:hover {
   font-size: 3rem;
+  color: rgb(10, 204, 178);
+}
+
+.list__div {
+  display: flex;
+  column-gap: 15rem;
+  align-items: center;
+  flex-direction: row;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.list__div a:hover {
   color: rgb(10, 204, 178);
 }

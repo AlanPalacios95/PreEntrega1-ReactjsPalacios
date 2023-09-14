@@ -1,6 +1,7 @@
 import './Navbar.css'; 
 import Brand from "./Brand";
 import CartWiget from "./CartWiget";
+import ContainerItemList from "./ContainerItemList"; 
 
 
 function Navbar() {
@@ -13,6 +14,7 @@ function Navbar() {
       </div>
 
       <nav className='containerItemList'>
+        <ContainerItemList />
     
       </nav>
 
