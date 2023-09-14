@@ -1,4 +1,4 @@
-import HeaderImg from "./componentes/home/HeatherImg";
+import HeaderImg from "./componentes/home/Portada";
 import Navbar from "./componentes/nav/Navbar";
 import './componentes/nav/Navbar.css';
 import ItemListContainer from './componentes/ItemListContainer/ItemListContainer';
