@@ -1,4 +1,4 @@
-import "./heatherImg.css";
+import "./heatherimg.css";
 
 const HeaderImg = () => {
     return (
