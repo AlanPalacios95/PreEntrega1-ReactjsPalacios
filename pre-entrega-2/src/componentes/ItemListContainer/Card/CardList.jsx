@@ -1,10 +1,11 @@
 import Card from "./Card";
+import ListProducts from "./ProductList";
 import './card.css';
 
 const ItemList = ({ productos }) => {
     return (
         <div >
-            <h1 className="category__title">Productos</h1>
+            <ListProducts />
             <div className="itemlist__div">
             {productos.length > 0 &&
                 productos.map((producto) => (
